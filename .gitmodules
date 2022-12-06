@@ -3,3 +3,6 @@
 	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
 [submodule "lib/chainlink-brownie-contracts"]
 	branch = 1.2.0
+[submodule "bootcamp_project/lib/openzeppelin-contracts"]
+	path = bootcamp_project/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
