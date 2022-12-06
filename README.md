@@ -1,6 +1,6 @@
 # EthDenver Bootcamp FInal Project
 
-## coded by Team 8 (I think lol ) :
+## Project Group 8:
   * @kylemilden237
   * @JohnGkliatis
   * @0xwaya
