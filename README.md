@@ -45,7 +45,7 @@ Chainlink VRF
 This will deploy a smart contract to kovan and get a Random number via Chainlink VRF.
 
 ```
-brownie run scripts/vrf_scripts/01_deploy_vrf.py --network kovan
-brownie run scripts/vrf_scripts/02_request_randomness.py --network kovan
-brownie run scripts/vrf_scripts/03_read_random_number.py --network kovan
+brownie run scripts/vrf_scripts/01_deploy_vrf.py --network goerli
+brownie run scripts/vrf_scripts/02_request_randomness.py --network goerli
+brownie run scripts/vrf_scripts/03_read_random_number.py --network goerli
 ```
