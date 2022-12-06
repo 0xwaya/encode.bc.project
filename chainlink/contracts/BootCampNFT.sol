@@ -81,5 +81,5 @@ constructor(address _VRFCoordinator, address _LinkToken, bytes32 _keyhash) publi
         requestIdToTokenId[requestId] = newItemId; // <-- API call to the requestIdToTokenId mapping //
         randomNumber = randomness; // <-- VRF random number //
         _setTokenURI(newItemId, tokenURI); // set the tokenURI //
-    } // <-- End of fullfillRandomness function //
-} // <-- End of Function to define the TokenRegistry //
+    }
+} 
