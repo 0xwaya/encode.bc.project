@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT-Modern-Variant
-// for experimental use only - @0xwaya 
+// for educational/experimental use only during ETHDenver 2022 Bootcamp
 
-pragma solidity ^0.8.13;
+pragma solidity  >=0.7.0 <0.8.17;
 
 import 'erc721a/contracts/ERC721A.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
