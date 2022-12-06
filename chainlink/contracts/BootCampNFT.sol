@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT-Modern-Variant
-// for educational/experimental use only during ETHDenver 2022 Bootcamp
+// for educational use only during ETHDenver 2022 Bootcamp project team 8 '@kylemilden237, @JohnGkliatis, @0xwaya'
 
 pragma solidity  >=0.7.0 <0.8.17;
 
