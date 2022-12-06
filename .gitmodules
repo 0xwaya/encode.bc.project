@@ -1,3 +1,5 @@
 [submodule "bootcamp_project/lib/chainlink-brownie-contracts"]
 	path = bootcamp_project/lib/chainlink-brownie-contracts
 	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
+[submodule "lib/chainlink-brownie-contracts"]
+	branch = 1.2.0
