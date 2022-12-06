@@ -22,14 +22,18 @@ Installation:
 ```
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
-```
-
-#### restart your terminal
+``
+##### restart your terminal
 ```
 pipx install eth-brownie
-Or, if that doesn't work, via pip
+```
+##### Or, if that doesn't work, via pip
+```
 pip install eth-brownie
-Download the mix and install dependencies.
+```
+
+##### Download the mix and install dependencies.
+```
 brownie bake chainlink-mix
 cd chainlink-mix
 pip install -r requirements.txt
@@ -39,6 +43,7 @@ pip install -r requirements.txt
 
 Chainlink VRF
 This will deploy a smart contract to kovan and get a Random number via Chainlink VRF.
+
 ```
 brownie run scripts/vrf_scripts/01_deploy_vrf.py --network kovan
 brownie run scripts/vrf_scripts/02_request_randomness.py --network kovan
