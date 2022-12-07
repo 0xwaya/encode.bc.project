@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
-import "../lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts/access/Ownable.sol";
+import "openzeppelin-contracts/token/ERC20/IERC20.sol";
 
 contract LottoCoin is IERC20, Ownable {
     uint256 private constant MAX_UINT256 = 2 ** 256 - 1;

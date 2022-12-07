@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "forge-std/Test.sol";
+import "ds-test/Test.sol";
 import "../src/LottoCoin.sol";
 
 contract LottoCoinTest is Test {

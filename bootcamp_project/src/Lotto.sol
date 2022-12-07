@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import "openzeppelin-contracts/access/Ownable.sol";
 import "erc721a/contracts/IERC721A.sol";
-import "../lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-contracts/token/ERC20/IERC20.sol";
 import "../@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
-import "../lib/openzeppelin-contracts/contracts/utils/structs/EnumerableSet.sol";
+import "openzeppelin-contracts/utils/structs/EnumerableSet.sol";
 
 contract Lotto is VRFConsumerBase, Ownable {
     using EnumerableSet for EnumerableSet.AddressSet;
