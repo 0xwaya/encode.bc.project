@@ -7,8 +7,8 @@
  
 
  ### Concept:
- - create token to mint using burn to mint NFT function
- - NFT with chainlink vrf randomness funtion to select lotery winner among NFT holders
+ - create token to mint NFT function
+ - NFT uses chainlink vrf randomness function to select lotery winner among NFT holders
  - contract testing using foundry
 
 
