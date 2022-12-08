@@ -23,13 +23,13 @@ Install hardhat
 ```
 yarn add --dev hardhat
 ```
-# or use npm to install
+### or use npm to install
 
 ```
 npm install --save-dev hardhat
 ```
 
-# run 
+### run 
 
 ```
 npx hardhat
