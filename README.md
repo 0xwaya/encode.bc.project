@@ -21,16 +21,23 @@ here are some usefull codes to get started:
 Install hardhat
 
 ```
-yarn add --dev hardhat
-```
-### or use npm to install
-
-```
-npm install --save-dev hardhat
+$ yarn add --dev hardhat
 ```
 
-### run 
+#### or use npm to install
 
 ```
-npx hardhat
+$ npm install --save-dev hardhat
+```
+
+#### run 
+
+```
+$ npx hardhat
+```
+
+#### to compile run
+
+```
+$ npx hardhat compile
 ```
