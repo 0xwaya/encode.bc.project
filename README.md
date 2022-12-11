@@ -1,4 +1,4 @@
-# EthDenver Bootcamp FInal Project
+# EthDenver Bootcamp Final Project
 
 ## Project Group 8:
   * @kylemilden237
